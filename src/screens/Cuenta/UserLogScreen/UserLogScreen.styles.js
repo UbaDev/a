@@ -16,6 +16,6 @@ export const styles = StyleSheet.create({
         paddingVertical:10,
     },
     btnText: {
-        color: "#f44336",
+        color: "#000",
     }
 })

@@ -31,7 +31,7 @@ export function LoginScreen() {
           </View>
           <View style={styles.text}>
             <Text style={styles.textRegister}>
-              ¿Aún no tienes una cuenta? <Text style={styles.textReg} onPress={goToRegister}>Registrate</Text>
+              ¿Aún no tienes una cuenta? <Text style={styles.textReg} onPress={goToRegister}>Unete</Text>
             </Text>
           </View>
 

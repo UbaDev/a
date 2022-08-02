@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
     },
 
     textReg: {
-        color: "#f44336",
+        color: "#000",
     },
     text: {
         flex:1,

@@ -11,9 +11,7 @@ export const styles = StyleSheet.create({
     input : {
         width: "100%",
         marginTop:20,
-        borderWidth: 1,
-        borderColor: "#ccc",
-        borderRadius: 10,
+
     },
     icon: {
         color:"#ccc",
@@ -23,6 +21,6 @@ export const styles = StyleSheet.create({
         width:"95%",
     },
     btn: {
-        backgroundColor: "#f44336",
+        backgroundColor: "#000",
     }
 })

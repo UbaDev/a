@@ -32,6 +32,6 @@ export const styles = StyleSheet.create({
         marginBottom:20,
     },
     btnStyle: {
-        backgroundColor: "#f44336",
+        backgroundColor: "#000",
     }
 })

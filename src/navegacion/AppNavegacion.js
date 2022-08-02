@@ -15,7 +15,7 @@ export function AppNavegacion(){
     return(
         <Tab.Navigator screenOptions={({route}) => ({
             headerShown:false,
-            tabBarActiveTintColor: 'red',
+            tabBarActiveTintColor: '#000',
             tabBarInactiveTintColor: "#646464",
             tabBarIcon:({color, size}) => screenOptions(route, color, size),
              })}>
@@ -39,27 +39,32 @@ export function AppNavegacion(){
             </Tab.Screen>
 
             <Tab.Screen
+                name={screen.favoritos.tab}
+                component={FavoritosStack}
+                options={{ title: "Favoritos" }}>
+            </Tab.Screen>
+
+            <Tab.Screen
                 name={screen.puntuacion.tab}
                 component={PuntuacionStack}
                 options={{ title: "Puntuación" }}
                 >
 
             </Tab.Screen>
+            
+            
 
-            <Tab.Screen 
-            name={screen.favoritos.tab} 
-            component={FavoritosStack}
-            options={{ title: "Favoritos" }}>
+          
+            <Tab.Screen
+                name={screen.cuenta.tab}
+                component={CuentaStack}
+                options={{ title: "Cuenta" }}>
+
             </Tab.Screen>
 
            
 
-            <Tab.Screen
-            name={screen.cuenta.tab}
-            component={CuentaStack}
-            options={{ title: "Cuenta" }}>
-
-             </Tab.Screen>
+           
         </Tab.Navigator>
     )
 }

@@ -41,7 +41,7 @@ export function ExplorarScreen(props) {
     
       <Icon reverse
        type="material-community"
-        name="plus" color="#f44336"
+        name="plus" color="#000"
          containerStyle={styles.btnContainer}
         onPress={gotToAddAnuncios}
          />

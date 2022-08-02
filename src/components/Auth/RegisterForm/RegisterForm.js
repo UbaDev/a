@@ -94,7 +94,7 @@ export function RegisterForm() {
         errorMessage={formik.errors.repeatPassword}>
       </Input>
 
-      <Button title="Registrarme" containerStyle={styles.btnRegister} buttonStyle={styles.btn}
+      <Button title="Registrar" containerStyle={styles.btnRegister} buttonStyle={styles.btn}
       onPress={formik.handleSubmit} loading={formik.isSubmitting}></Button>
     </View>
   )

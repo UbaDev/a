@@ -16,6 +16,6 @@ export const styles = StyleSheet.create({
         paddingBottom:5,
     },
     icon: {
-        backgroundColor:"#f44336",
+        backgroundColor:"#000",
     }
 })

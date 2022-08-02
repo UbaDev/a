@@ -5,9 +5,7 @@ export const styles = StyleSheet.create({
     input: {
         width:"100%",
         marginTop:20,
-        borderWidth:1,
-        borderColor:"#ccc",
-        borderRadius:10,
+ 
     },
         content: {
         flex:1,
@@ -23,6 +21,6 @@ export const styles = StyleSheet.create({
         width:"95%",
     },
     btn: {
-        backgroundColor:"#f44336"
+        backgroundColor:"#000"
     }
 })

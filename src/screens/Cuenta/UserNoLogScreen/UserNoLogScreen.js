@@ -19,8 +19,9 @@ export function UserNoLogScreen() {
 
         <Image source={require('../../../../assets/img/logo.jpg')}
           style={styles.image} />
-        <Text style={styles.title}>¿Aún no tienes una cuenta?</Text>
-        <Text style={styles.description}>Únete y disfuta la experiencia en QroAdvisor</Text>
+        <Text style={styles.title}>Registrate en nuestra app
+        </Text>
+        <Text style={styles.description}>Registrate</Text>
 
         <Button title="Unirme" onPress={goToLogin} buttonStyle={styles.btnStyle}></Button>
       </ScrollView>
